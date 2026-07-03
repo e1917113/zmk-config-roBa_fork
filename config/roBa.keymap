@@ -106,7 +106,7 @@
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT INTERNATIONAL_5  &lt 1 SPACE  &lt 3 LANGUAGE_5      &kp BACKSPACE  &kp ENTER                             &kp BACKSLASH
             >;
 
-            sensor-bindings = <&inc_dec_kp A B>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
