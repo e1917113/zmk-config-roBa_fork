@@ -100,10 +100,10 @@
 
         NUM {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp TILDE
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp BACKSLASH
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                &kp PIPE
+&trans  &trans  &trans  &trans  &trans                         &kp INS   &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans      &kp PG_UP  &kt HOME  &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp TILDE
+&trans  &trans  &trans  &trans  &trans  &trans      &kp PG_DN  &kp END   &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp BACKSLASH
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &trans                                                                  &kp PIPE
             >;
         };
 
