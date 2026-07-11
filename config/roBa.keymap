@@ -5,7 +5,6 @@
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 40
 
-
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
@@ -103,10 +102,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R                           &kp T                                       &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D         &lt 4 F                         &kp G        &kp ESCAPE      &kp MINUS      &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z      &kp X         &kp C         &kp V                           &kp B        &lt 2 TAB       &kp COLON      &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT INTERNATIONAL_5  &lt 1 SPACE  &lt 3 SQT       &kp BACKSPACE  &kp ENTER                             &kp BACKSLASH
+&kp Q      &kp W         &kp E         &kp R                           &kp T                                        &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S         &kp D         &lt 4 F                         &kp G        &kp ESCAPE       &kp MINUS      &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z      &kp X         &kp C         &kp V                           &kp B        &lt 2 TAB        &kp COLON      &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT INTERNATIONAL_5  &lt 1 SPACE  &lt 3 GRAVE      &kp BACKSPACE  &kp ENTER                             &kp BACKSLASH
             >;
 
             sensor-bindings = <&scroll_up_down>;
